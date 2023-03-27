@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(136, 151, 214);
+  position: relative;
+   text-align: center;
+}
+
+
+
+.shoppingcart {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.shoppingcart path {
+  fill: rgb(182, 179, 182);
+}
+
+.shoppingitems {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxes { 
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(183, 105, 105);
+  padding: 30px;
+  box-shadow: 4px 2px 20px 0 rgb(39, 39, 39);
+}
+
+.img {
+     
+  grid-area: img;
+  padding-bottom: 5px;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
+
+.itemName {
+  grid-area: itemName;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+.price {
+  grid-area: price;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.plus {
+  width: 25px;
+}
+.minus {
+  width: 25px;
+}
+.quantity {
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 40px;
+  height: 21px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.shoppingcontainer {
+  margin-top: 5px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.like {
+  background-color: white;
+  align-self: center;
+  margin-top: 5px;
+}
+.ilike {
+  background-color: red;
+}
